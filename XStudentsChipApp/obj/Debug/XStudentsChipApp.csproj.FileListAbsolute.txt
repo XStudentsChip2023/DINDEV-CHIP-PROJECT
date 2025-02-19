@@ -8,3 +8,4 @@ C:\Users\User\Source\Repos\XStudentsChip2023\DINDEV-CHIP-PROJECT\XStudentsChipAp
 C:\Users\User\Source\Repos\XStudentsChip2023\DINDEV-CHIP-PROJECT\XStudentsChipApp\obj\Debug\XStudentsChipApp.csproj.CoreCompileInputs.cache
 C:\Users\User\Source\Repos\XStudentsChip2023\DINDEV-CHIP-PROJECT\XStudentsChipApp\obj\Debug\XStudentsChipApp.exe
 C:\Users\User\Source\Repos\XStudentsChip2023\DINDEV-CHIP-PROJECT\XStudentsChipApp\obj\Debug\XStudentsChipApp.pdb
+C:\Users\User\Source\Repos\XStudentsChip2023\DINDEV-CHIP-PROJECT\XStudentsChipApp\obj\Debug\XStudentsChipApp.RadiUpdate.resources

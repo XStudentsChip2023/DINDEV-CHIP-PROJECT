@@ -37,6 +37,8 @@
             this.txt_secondName = new System.Windows.Forms.TextBox();
             this.txt_lastName = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btn_change = new System.Windows.Forms.Button();
+            this.btn_show = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -120,10 +122,33 @@
             this.dataGridView1.Size = new System.Drawing.Size(743, 196);
             this.dataGridView1.TabIndex = 8;
             // 
+            // btn_change
+            // 
+            this.btn_change.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.25F);
+            this.btn_change.Location = new System.Drawing.Point(835, 366);
+            this.btn_change.Name = "btn_change";
+            this.btn_change.Size = new System.Drawing.Size(146, 74);
+            this.btn_change.TabIndex = 9;
+            this.btn_change.Text = "промени";
+            this.btn_change.UseVisualStyleBackColor = true;
+            // 
+            // btn_show
+            // 
+            this.btn_show.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F);
+            this.btn_show.Location = new System.Drawing.Point(835, 244);
+            this.btn_show.Name = "btn_show";
+            this.btn_show.Size = new System.Drawing.Size(146, 74);
+            this.btn_show.TabIndex = 10;
+            this.btn_show.Text = "Покажи всички";
+            this.btn_show.UseVisualStyleBackColor = true;
+            this.btn_show.Click += new System.EventHandler(this.btn_show_Click);
+            // 
             // RadiUpdate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btn_show);
+            this.Controls.Add(this.btn_change);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.txt_lastName);
             this.Controls.Add(this.txt_secondName);
@@ -134,7 +159,7 @@
             this.Controls.Add(this.lbl_name);
             this.Controls.Add(this.lbl_id);
             this.Name = "RadiUpdate";
-            this.Size = new System.Drawing.Size(815, 454);
+            this.Size = new System.Drawing.Size(1025, 454);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -152,5 +177,7 @@
         private System.Windows.Forms.TextBox txt_secondName;
         private System.Windows.Forms.TextBox txt_lastName;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button btn_change;
+        private System.Windows.Forms.Button btn_show;
     }
 }

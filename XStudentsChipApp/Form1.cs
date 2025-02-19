@@ -15,14 +15,20 @@ namespace XStudentsChipApp
         public Form1()
         {
             InitializeComponent();
+            radiUpdate1.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            radiUpdate1.Show();
         }
 
         private void BTN_write_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
         {
 
         }

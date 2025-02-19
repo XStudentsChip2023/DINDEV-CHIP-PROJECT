@@ -15,6 +15,24 @@ namespace XStudentsChipApp
         public RadiUpdate()
         {
             InitializeComponent();
+            
+            Dictionary<int, List<string>> myDictionary = new Dictionary<int, List<string>>
+            {
+                { 1213, new List<string> { "Име" , "Презиме", "Фамилия" } },
+                { 2234, new List<string> { "Cherry", "Date" } },
+                { 3234, new List<string> { "Elderberry", "Fig", "Grapes" } }
+            };
+
+
+            
+           
+
+            dataGridView1.DataSource = myDictionary;
+        }
+
+        private void btn_show_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
