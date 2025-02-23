@@ -34,5 +34,15 @@ namespace XStudentsChipApp
         {
 
         }
+
+        private void txt_lastName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RadiUpdate_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

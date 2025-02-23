@@ -60,6 +60,12 @@
     <Compile Include="RadiUpdate.Designer.cs">
       <DependentUpon>RadiUpdate.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCWrite.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCWrite.Designer.cs">
+      <DependentUpon>UCWrite.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -74,6 +80,9 @@
     </Compile>
     <EmbeddedResource Include="RadiUpdate.resx">
       <DependentUpon>RadiUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCWrite.resx">
+      <DependentUpon>UCWrite.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
