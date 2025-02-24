@@ -1,0 +1,10 @@
+C:\Users\Administrator\Source\Repos\XStudentsChip2023\DINDEV-CHIP-PROJECT\XStudentsChipApp\bin\Debug\XStudentsChipApp.exe.config
+C:\Users\Administrator\Source\Repos\XStudentsChip2023\DINDEV-CHIP-PROJECT\XStudentsChipApp\bin\Debug\XStudentsChipApp.exe
+C:\Users\Administrator\Source\Repos\XStudentsChip2023\DINDEV-CHIP-PROJECT\XStudentsChipApp\bin\Debug\XStudentsChipApp.pdb
+C:\Users\Administrator\Source\Repos\XStudentsChip2023\DINDEV-CHIP-PROJECT\XStudentsChipApp\obj\Debug\XStudentsChipApp.csproj.AssemblyReference.cache
+C:\Users\Administrator\Source\Repos\XStudentsChip2023\DINDEV-CHIP-PROJECT\XStudentsChipApp\obj\Debug\XStudentsChipApp.Form1.resources
+C:\Users\Administrator\Source\Repos\XStudentsChip2023\DINDEV-CHIP-PROJECT\XStudentsChipApp\obj\Debug\XStudentsChipApp.Properties.Resources.resources
+C:\Users\Administrator\Source\Repos\XStudentsChip2023\DINDEV-CHIP-PROJECT\XStudentsChipApp\obj\Debug\XStudentsChipApp.csproj.GenerateResource.cache
+C:\Users\Administrator\Source\Repos\XStudentsChip2023\DINDEV-CHIP-PROJECT\XStudentsChipApp\obj\Debug\XStudentsChipApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\XStudentsChip2023\DINDEV-CHIP-PROJECT\XStudentsChipApp\obj\Debug\XStudentsChipApp.exe
+C:\Users\Administrator\Source\Repos\XStudentsChip2023\DINDEV-CHIP-PROJECT\XStudentsChipApp\obj\Debug\XStudentsChipApp.pdb
