@@ -47,37 +47,23 @@
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox1.Size = new System.Drawing.Size(797, 65);
+            this.groupBox1.Size = new System.Drawing.Size(1196, 100);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(599, 8);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(193, 53);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "ИЗТЕГЛЯНЕ";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(401, 8);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(193, 53);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "ПРОМЯНА";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.BTN_read.Location = new System.Drawing.Point(10, 12);
+            this.BTN_read.Name = "BTN_read";
+            this.BTN_read.Size = new System.Drawing.Size(290, 82);
+            this.BTN_read.TabIndex = 0;
+            this.BTN_read.Text = "ЧЕТЕНЕ";
+            this.BTN_read.UseVisualStyleBackColor = true;
             // 
             // BTN_write
             // 
-            this.BTN_write.Location = new System.Drawing.Point(204, 8);
-            this.BTN_write.Margin = new System.Windows.Forms.Padding(2);
+            this.BTN_write.Location = new System.Drawing.Point(306, 12);
             this.BTN_write.Name = "BTN_write";
             this.BTN_write.Size = new System.Drawing.Size(193, 53);
             this.BTN_write.TabIndex = 1;
@@ -87,23 +73,22 @@
             // 
             // BTN_read
             // 
-            this.BTN_read.Location = new System.Drawing.Point(7, 8);
-            this.BTN_read.Margin = new System.Windows.Forms.Padding(2);
-            this.BTN_read.Name = "BTN_read";
-            this.BTN_read.Size = new System.Drawing.Size(193, 53);
-            this.BTN_read.TabIndex = 0;
-            this.BTN_read.Text = "ЧЕТЕНЕ";
-            this.BTN_read.UseVisualStyleBackColor = true;
+            this.button1.Location = new System.Drawing.Point(602, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(290, 82);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "ПРОМЯНА";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button3.Location = new System.Drawing.Point(291, 154);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(194, 81);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = false;
+            this.button2.Location = new System.Drawing.Point(898, 12);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(290, 82);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "ИЗТЕГЛЯНЕ";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -112,7 +97,6 @@
             this.ClientSize = new System.Drawing.Size(799, 415);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
